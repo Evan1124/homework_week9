@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<stdlib.h> 
+int main()
+{   printf("这是一个输出两数中较大数的程序\n请输入两个数，并用空格隔开，完成后按回车键\n"); 
+	float a;
+	float b;
+	scanf("%f %f",&a,&b);
+	if (a > b)
+	 { printf("两数中较大数为%f",a);
+	}
+    else if (a==b)
+	{  printf("两数相等");
+	}
+	else {
+	   printf("两数中较大数为%f",b);
+	}
+    system("pause");
+     return 0;
+}
